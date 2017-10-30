@@ -34,6 +34,7 @@ public class MainGoodServlet extends HttpServlet {
 		String sql = "select * from goods_list";
 
 		Connection conn = DBUtil.getConn();
+		// ¹þ¹þ²âÊÔ
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 
