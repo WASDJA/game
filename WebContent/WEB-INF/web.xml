@@ -91,7 +91,7 @@
 	<filter>
 		<display-name>LoginFilter</display-name>
 		<filter-name>LoginFilter</filter-name>
-		<filter-class>login_register.LoginFilter</filter-class>
+		<filter-class>cn.zhku.filter.LoginFilter</filter-class>
 		<init-param>
 			<param-name>filterPattern</param-name>
 			<param-value>.*Servlet|.*\.jsp</param-value>
